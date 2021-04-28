@@ -135,11 +135,11 @@ while True:
 
 		print("The length of numpy array is %d"%(len(y_array)))
 
-	finally:
-		pass
 
 	except:
 		raise Exception("BLE Server is not correctly configured.")
 		break
+	finally:
+		pass
 
 
